@@ -1,0 +1,288 @@
+
+.centered-container {
+  width: 50%;
+  margin: 0 auto; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  direction: rtl;
+
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  
+
+
+}
+
+.nav-item select {
+  padding: 10px;
+  border: none;
+  color:#286f95;
+  font-family: "IBM Plex Sans Arabic";
+  font-weight: bold;
+  font-size: 24px;
+  direction: ltr;
+  background-color: transparent;
+
+}
+
+.frame {
+  display: flex;
+  width: 1440px;
+  height: 947px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 60px;
+  position: relative;
+
+  
+}
+
+.frame .network-biometric {
+  position: relative;
+  width: 565px;
+  height: 566px;
+  background-image: url(https://c.animaapp.com/QS4B9o07/img/network-biometric-authentication-and-facial-recognition-1-1.gif);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.frame .login {
+  display: flex;
+  flex-direction: column;
+  width: 678px;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 40px 40px 0px 40px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #bfdbea;
+  box-shadow: var(--shadow);
+  
+}
+
+
+
+.frame .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+
+.frame .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "IBM Plex Sans Arabic", Helvetica;
+  font-weight: 500;
+  color: #80b5d2;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  direction: rtl;
+}
+
+.frame .div-2 {
+  display: flex;
+  flex-direction: column;
+  width: 426px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-2 {
+  position: relative;
+  width: 426px;
+  margin-top: -1px;
+  font-family: "IBM Plex Sans Arabic", Helvetica;
+  font-weight: 400;
+  color: #286f95;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  direction: rtl;
+}
+.input{
+  position: relative;
+}
+.frame .input-2  {
+  width: 426px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #e2e2e2;
+  direction: rtl;
+  padding-right: 30px;
+}
+
+
+
+
+.frame .eye {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.frame input[type="password"] {
+  padding-right: 40px;
+}
+
+
+.frame .div-4 {
+  display: flex;
+  width: 434px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  width: 111px;
+  height: 26px;
+  top: -1px;
+  left: 4px;
+  font-family: var(--14-font-family);
+  font-weight: var(--14-font-weight);
+  color: #286f95;
+  font-size: var(--14-font-size);
+  letter-spacing: var(--14-letter-spacing);
+  line-height: var(--14-line-height);
+  direction: rtl;
+  font-style: var(--14-font-style);
+}
+
+.frame .div-5 {
+  display: flex;
+  width: 122px;
+  height: 24px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  position: relative;
+}
+
+.frame .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--14-font-family);
+  font-weight: var(--14-font-weight);
+  color: #929292;
+  font-size: var(--14-font-size);
+  letter-spacing: var(--14-letter-spacing);
+  line-height: var(--14-line-height);
+  direction: rtl;
+  font-style: var(--14-font-style);
+}
+
+.frame .check-box {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: var(--stroke);
+}
+
+.frame .next  {
+  display: flex;
+  flex-direction: column;
+  width: 278px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 40px;
+  border: 2px solid;
+  border-color: #bfdbea;
+  position: relative;
+  align-self: stretch;
+  margin-top: -2px;
+  font-family: var(--18-font-family);
+  font-weight: var(--18-font-weight);
+  color: #286f95;
+  font-size: var(--18-font-size);
+  text-align: center;
+  letter-spacing: var(--18-letter-spacing);
+  line-height: var(--18-line-height);
+  direction: rtl;
+  font-style: var(--18-font-style);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.frame .div-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+  transform: rotate(180deg);
+}
+
+.frame .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  transform: rotate(180deg);
+  font-family: var(--14-font-family);
+  font-weight: var(--14-font-weight);
+  color: #929292;
+  font-size: var(--14-font-size);
+  letter-spacing: var(--14-letter-spacing);
+  line-height: var(--14-line-height);
+  direction: rtl;
+  font-style: var(--14-font-style);
+}
+
+.frame .text-wrapper-7  {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  transform: rotate(180deg);
+  font-family: var(--14-font-family);
+  font-weight: var(--14-font-weight);
+  color: #286f95;
+  font-size: var(--14-font-size);
+  letter-spacing: var(--14-letter-spacing);
+  line-height: var(--14-line-height);
+  direction: rtl;
+  font-style: var(--14-font-style);
+
+}
